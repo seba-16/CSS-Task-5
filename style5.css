@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.title{
+	color: white;
+	text-align: left;
+	margin-top: 0px;
+	background-color: #194d00;
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	padding: 25px;
+	
+}
+.navbar{
+	height: 30px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 19px;
+	padding: 10px; 
+	background-color: #4CAF50 !important;
+	position:absolute;
+	background-size: 100px;
+	width: 100%;
+	box-shadow: 5px 5px #ffff80;
+	display: block;
+	position: absolute;
+    z-index: 4;
+    letter-spacing: 4px;
+    float: left;
+    
+}
+
+.navber ul{
+	display: 
+	
+}
+.navbar ul li{
+	
+	display: inline-block;
+	padding-left: 50px;
+	
+    
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-color: #FFFFFF;
+	cursor: pointer;
+	
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: black;
+}
+a:active{
+	
+}
+h1{
+	text-align: center;
+}
+#container{
+	max-width: 500px;
+	}
+
+.form{
+	width: 30%;
+	padding: 20px;
+	margin-left: 900px;
+	margin-top: 40PX;
+	margin-right: 20px; 
+	border: 2px;
+	border-style: dotted;
+	display: none;
+}
+input{
+	width: 100%;
+	margin-top: 10px;
+	height: 20px;
+	padding: 5px;
+	text-align: center;
+}
+input:focus{
+	background-color: #cccccc;
+
+}
+input[type=submit]{
+	background-color: #80ff00; 
+	border:none;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+
+}
+.navbar li:hover li .form{
+	display: inline-block;
+	position: absolute;
+}
+.tutorialnav{
+
+	font-family:Arial;
+	font-size: 16px;
+	padding-top: 10px;
+	margin-top: 50PX;
+	margin-left: -25px; 
+	
+	position: sticky;
+	background-size: 100px;
+	width: 100%;
+	
+	display: none;
+	position: absolute;
+    z-index: 4;
+    letter-spacing: 4px;
+    float: left;
+}
+.tutorialnav ul li{
+	display: block;
+}
+.tutorialome li:hover .tutorialnav{
+	display: block;
+}
+.navbar li:hover .tutorialnav{
+	display: block;
+	position: absolute;
+}
+
+
+.referencesnav{
+	font-family:Arial;
+	font-size: 16px;
+	padding-top: 10px;
+	margin-top: 50PX; 
+	margin-left: -200px;
+	position: sticky;
+	background-size: 100px;
+	width: 100%;
+	
+	display: none;
+	position: absolute;
+    z-index: 4;
+    letter-spacing: 4px;
+    float: left;
+}
+.referencesnav ul li{
+	display: block;
+
+}
+.navbar li:hover .referencesnav {
+	display: block;
+	position: absolute;
+}
+.examplesnav{
+	font-family:Arial;
+	font-size: 16px;
+	padding-top: 10px;
+	margin-top: 50PX;
+	margin-left: -410px; 
+	
+	position: sticky;
+	background-size: 100px;
+	width: 100%;
+	
+	display: none;
+	position: absolute;
+    z-index: 4;
+    letter-spacing: 4px;
+    float: left;
+}
+
+.examplesnav ul li{
+	display: block;
+
+}
+.navbar li:hover .examplesnav {
+	display: block;
+	position: absolute;
+}
+.exercisesnav{
+	font-family:Arial;
+	font-size: 16px;
+	padding-top: 10px;
+	margin-top: 50PX;
+	margin-left: -590px; 
+	
+	position: sticky;
+	background-size: 100px;
+	width: 100%;
+	
+	display: none;
+	position: absolute;
+    z-index: 4;
+    letter-spacing: 4px;
+    float: left;
+}
+
+.exercisesnav ul li{
+	display: block;
+
+}
+.navbar li:hover .exercisesnav {
+	display: block;
+	position: absolute;
+}
+
