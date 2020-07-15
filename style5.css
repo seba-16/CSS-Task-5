@@ -15,6 +15,7 @@
 	
 }
 .navbar{
+
 	height: 30px;
 	font-family: "Segoe UI",Arial,sans-serif;
 	font-size: 19px;
@@ -34,29 +35,27 @@
 
 .navber ul{
 	display: 
+
 	
 }
 .navbar ul li{
 	
 	display: inline-block;
-	padding-left: 50px;
-	
-    
+	padding-left: 50px; 
 
 }
 a{
 	text-decoration: none;
-	color: black;
+	
 }
 
 a:hover{
 	background-color: #FFFFFF;
 	cursor: pointer;
-	
 	padding-top: 10px;
 	padding-bottom: 20px;
 	text-align: center;
-	color: black;
+	color: red;
 }
 a:active{
 	
@@ -64,6 +63,8 @@ a:active{
 h1{
 	text-align: center;
 }
+
+
 #container{
 	max-width: 500px;
 	}
@@ -76,7 +77,12 @@ h1{
 	margin-right: 20px; 
 	border: 2px;
 	border-style: dotted;
-	display: none;
+	color: black;
+}
+.formde{
+	display: block;
+	text-align: center;
+
 }
 input{
 	width: 100%;
@@ -97,10 +103,10 @@ input[type=submit]{
 	font-size: 20px;
 
 }
-.navbar li:hover li .form{
-	display: inline-block;
-	position: absolute;
+table{
+	width:100%;
 }
+
 .tutorialnav{
 
 	font-family:Arial;
